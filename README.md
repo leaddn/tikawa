@@ -17,7 +17,7 @@ A visually engaging and user-friendly website created to showcase a coffeeshop's
 2. **About Us**: Shares the story of the coffeeshop, its vision, and its journey.
 3. **Menu**: A dynamic, categorized display of beverages, pastries, and other offerings.
 4. **Gallery**: A collection of high-quality photos showcasing the ambiance and decor.
-5. **Reviews**: Highlights customer testimonials and ratings.
+5. **Review**: Highlights customer testimonials and ratings.
 6. **Contact**: Includes location details, hours of operation, and a contact form.
 
 ### 🌟 **Interactive Features**
