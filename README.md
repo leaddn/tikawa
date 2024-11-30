@@ -41,7 +41,7 @@ A visually engaging and user-friendly website created to showcase a coffeeshop's
 - **Database**: Optional integration with MongoDB for customer testimonials or inquiries.
 
 ### **Deployment**
-- Hosted on platforms like **Netlify**, **Vercel**, or **GitHub Pages** for quick and reliable access.
+- Hosted on **GitHub Pages** for quick and reliable access.
 
 ---
 
@@ -78,7 +78,7 @@ A visually engaging and user-friendly website created to showcase a coffeeshop's
 ---
 
 ## **Contributions**
-Contributions, issues, and feature requests are welcome! Feel free to check out the [issues page](https://github.com/yourusername/coffeeshop-website/issues) or create a pull request.
+Contributions, issues, and feature requests are welcome! Feel free to check out the [issues page](https://github.com/leaddn/tikawa/issues) or create a pull request.
 
 ---
 
@@ -90,6 +90,6 @@ This project is licensed under the [MIT License](LICENSE).
 ## **Contact**
 For questions, suggestions, or feedback, please reach out at:  
 📧 Email: leadieudonat@gmail.com  
-🌐 Website: [Tikawa](https://your-coffeeshop-link.com)  
+🌐 Website: [Tikawa](https://leaddn.github.io/tikawa/)  
 
 Enjoy exploring the world of coffee through our website! ☕
