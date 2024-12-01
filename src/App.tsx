@@ -9,7 +9,7 @@ import Gallery from './components/Gallery';
 import Review from './components/Review';
 import Contact from './components/Contact';
 
-function App() {
+const App: React.FC = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -27,7 +27,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/menu" element={<Menu />} />
+        <Route path="/menu" element={<Menu name={undefined} price={undefined} />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/review" element={<Review />} />
         <Route path="/contact" element={<Contact />} />
