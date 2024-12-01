@@ -1,5 +1,6 @@
 import React from "react";
 import { MenuItem } from "../types/Menu";
+import { Container } from "@mui/material";
 
 const menuItems: MenuItem[] = [
   { id: 1, name: "Espresso", description: "Rich and creamy espresso shot.", price: 2.5 },
@@ -8,7 +9,7 @@ const menuItems: MenuItem[] = [
 
 const Menu: React.FC = () => {
   return (
-    <div className="p-6">
+    <Container className="p-6">
       <h1 className="text-3xl font-bold mb-4">Our Menu</h1>
       <ul>
         {menuItems.map((item) => (
@@ -18,7 +19,7 @@ const Menu: React.FC = () => {
           </li>
         ))}
       </ul>
-    </div>
+    </Container>
   );
 };
 

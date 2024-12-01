@@ -1,3 +1,4 @@
+import { Container } from "@mui/material";
 import React, { useState } from "react";
 
 const Contact: React.FC = () => {
@@ -20,7 +21,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <div className="p-6">
+    <Container className="p-6">
       <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
@@ -62,7 +63,7 @@ const Contact: React.FC = () => {
           Submit
         </button>
       </form>
-    </div>
+    </Container>
   );
 };
 

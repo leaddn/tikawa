@@ -1,3 +1,4 @@
+import { Container } from "@mui/material";
 import React from "react";
 
 interface Review {
@@ -15,7 +16,7 @@ const reviews: Review[] = [
 
 const Reviews: React.FC = () => {
   return (
-    <div className="p-6">
+    <Container className="p-6">
       <h1 className="text-3xl font-bold mb-4">Customer Reviews</h1>
       <div className="space-y-4">
         {reviews.map((review) => (
@@ -29,7 +30,7 @@ const Reviews: React.FC = () => {
           </div>
         ))}
       </div>
-    </div>
+    </Container>
   );
 };
 

@@ -1,3 +1,4 @@
+import { Container } from "@mui/material";
 import React from "react";
 
 const galleryImages = [
@@ -10,7 +11,7 @@ const galleryImages = [
 
 const Gallery: React.FC = () => {
   return (
-    <div className="p-6">
+    <Container className="p-6">
       <h1 className="text-3xl font-bold mb-4">Our Gallery</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         {galleryImages.map((image, index) => (
@@ -22,7 +23,7 @@ const Gallery: React.FC = () => {
           />
         ))}
       </div>
-    </div>
+    </Container>
   );
 };
 
